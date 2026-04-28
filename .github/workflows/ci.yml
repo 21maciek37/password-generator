@@ -17,6 +17,5 @@ jobs:
           pip install -r requirements.txt
       - name: Run tests
         run: |
-          # Dodajemy bieżący katalog do ścieżki i uruchamiamy pytest
-          export PYTHONPATH=$PYTHONPATH:$(pwd)
-          pytest -v
+          # Uruchomienie jako moduł automatycznie dodaje obecny katalog do ścieżki
+          python -m pytest -v
