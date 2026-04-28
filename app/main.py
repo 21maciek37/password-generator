@@ -1,7 +1,6 @@
 from fastapi import FastAPI, Query
 from .password_generator import generate_password
 
-# To jest ta zmienna, której szuka uvicorn:
 app = FastAPI(title="Password Generator")
 
 @app.get("/generate")
