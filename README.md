@@ -1,7 +1,7 @@
 # Password Generator API 🔐
 ![CI Status](https://github.com/111qqq222www333eee/password-generator/actions/workflows/ci.yml/badge.svg)
 
-Prosty i bezpieczny serwis API do generowania silnych haseł.
+Prosty i bezpieczny serwis API do generowania silnych haseł..
 
 ## 🚀 Uruchomienie lokalne
 1. `python -m venv .venv`
